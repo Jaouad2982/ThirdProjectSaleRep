@@ -66,5 +66,5 @@ loop if the custoner wants to
 		System.out.println("Enter the tax amount");
 		int taxe = input.nextInt();
 		s.setTax(taxe);
-		return s;
+	
 
