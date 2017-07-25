@@ -6,24 +6,24 @@ loop if the custoner wants to
 			int option = input.nextInt();
 			switch the user choice 
 			case 1:
-				System.out.println("The customer's name is " + sale.getName());
+				sale.getName());
 				break;
 			case 2:
-				System.out.println("The customer's number is " + sale.getNumber());
+				 sale.getNumber());
 				break;
 			case 3:
-				System.out.println("The customers salesAmount witout taxes is " + sale.getSalesAmount());
+				sale.getSalesAmount());
 				break;
 			case 4:
-				System.out.println("The customers tax is " + sale.getTax());
+				sale.getTax());
 				break;
 			case 5:
-				System.out.println(sale.toString());
+				sale.toString();
 				break;
 			case 6:
-				System.out.println("Enter the tax code");
+				taxCode input
 				int taxCode = input.nextInt();
-				System.out.println("The amount plus taxes is: " + sale.calculate(taxCode));
+				 sale.calculate(taxCode);
 				break;
 			default:
 				System.out.println("Wrong Input, plz try again");
@@ -32,20 +32,21 @@ loop if the custoner wants to
 			}
 	repeat the process if the customer press the right key
 
-			System.out.println("Would you like to repeat");
+			do you want to repat 
 			input.nextLine();
 			repeat = input.nextLine();
 
 		} while (repeat.startsWith("y"));
+		if not repeat output 
 		System.out.println("Thanks for using this app, Have  a good day");
 	}
 
 	method 1
-		System.out.println("Enter 1 to see  the customer's name ");
-		System.out.println("Enter 2 to check the customer's number");
-		System.out.println("Enter 3 to check the sales amount");
-		System.out.println("Emter 4 to check the tax amount");
-		System.out.println("Enter 5 to check all the info at once");
+		1 to see  the customer's name "
+		2 to check the customer's number"
+		3 to check the sales amount"
+		4 to check the tax amount"
+		5 to check all the info at once"
 
 
 	method 2
