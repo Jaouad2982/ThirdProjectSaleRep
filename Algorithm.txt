@@ -1,0 +1,19 @@
+Create a class holding the instance variables name, number,tax, and amount
+create a set and get method for all the fields.
+create a class Demo 
+create an object called sale
+input the user the enter the name 
+input the user to enter the number of the customer
+input the user to enter the sales amount
+input the user to enter tax
+
+check for the option chosen by the user
+if name output choses, output the name 
+if number output choses, output the number
+if salesamount output chosen, output sales amount
+if tax  output taxe
+if the user want to see the amount plus taxes
+check for code taxes
+math it 
+output the salesamount plus taxes
+repeat if the customer desires to 
